@@ -45,8 +45,7 @@ function ForgotPassword() {
             </h2>
 
             <p className="text-gray-700 mb-8 text-sm">
-              Ingresa tu correo electrónico y te enviaremos un enlace
-              para restablecer tu contraseña.
+              Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
