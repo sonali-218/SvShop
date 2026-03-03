@@ -72,15 +72,6 @@ function Admin() {
         </button>
 
         <button
-          onClick={() => setActiveTab("support")}
-          className={`flex items-center gap-3 w-full px-4 py-3 rounded-xl transition ${
-            activeTab === "support" ? "bg-[#CB6045]" : "hover:bg-[#CB6045]"
-          }`}
-        >
-          <LifeBuoy className="h-5 w-5" /> Soporte
-        </button>
-
-        <button
           onClick={() => setActiveTab("system")}
           className={`flex items-center gap-3 w-full px-4 py-3 rounded-xl transition ${
             activeTab === "system" ? "bg-[#CB6045]" : "hover:bg-[#CB6045]"
