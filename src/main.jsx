@@ -11,7 +11,7 @@ import './index.css'
   //<Admin />
 //)
 
- ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <App />
   </BrowserRouter>

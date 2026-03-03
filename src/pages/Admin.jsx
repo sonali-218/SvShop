@@ -169,41 +169,6 @@ function Admin() {
           </div>
         )}
 
-        {/* ================= SUPPORT ================= */}
-        {activeTab === "support" && (
-          <div className="bg-white rounded-3xl shadow-md p-8">
-            <h2 className="text-2xl font-bold mb-6">Soporte Técnico</h2>
-
-            <div className="space-y-4">
-              {tickets.map((ticket) => (
-                <div
-                  key={ticket.id}
-                  className="p-4 bg-[#FFF5F2] rounded-xl flex justify-between"
-                >
-                  <div>
-                    <p className="font-semibold">
-                      Ticket #{ticket.id} - {ticket.user}
-                    </p>
-                    <p className="text-sm text-gray-500">
-                      {ticket.issue}
-                    </p>
-                  </div>
-
-                  <span
-                    className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                      ticket.status === "Resuelto"
-                        ? "bg-green-100 text-green-700"
-                        : "bg-yellow-100 text-yellow-700"
-                    }`}
-                  >
-                    {ticket.status}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
         {/* ================= SYSTEM ================= */}
         {activeTab === "system" && (
           <div className="bg-white rounded-3xl shadow-md p-8">
